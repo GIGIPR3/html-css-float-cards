@@ -39,16 +39,23 @@ body{
 .nome{
     color: white;
     text-align: left;
-    display: inline-block;
     text-align: left;
+    display: inline-block;
+
 }
 
 .card{
     width: 80%;
     background-color: #0f0e17;
+    text-shadow: 2px 2px 4px black;
+  filter:DropShadow(Color=#000000, OffX=2, OffY=2);
 }
 
 .work{
     padding: 0;
     color: white;
+}
+
+.email{
+    color: rgb(65,148,173);
 }
