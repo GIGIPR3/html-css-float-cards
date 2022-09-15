@@ -24,11 +24,11 @@ body{
 }
 
 .col{
-    background-color: #0f0e17;
+
     width: calc(100% / 3);
     float: left;
-    text-align: center;
     margin-top: 100px;
+    text-align: left;
 }
 
 .profile-img{
@@ -39,4 +39,16 @@ body{
 .nome{
     color: white;
     text-align: left;
+    display: inline-block;
+    text-align: left;
+}
+
+.card{
+    width: 80%;
+    background-color: #0f0e17;
+}
+
+.work{
+    padding: 0;
+    color: white;
 }
