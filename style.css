@@ -17,6 +17,10 @@ body{
     font-family: 'Quicksand', sans-serif
 }
 
+header{
+    padding: 10%;
+}
+
 .title{
     font-family: 'Quicksand', sans-serif;
     color: #e53170;
@@ -27,13 +31,14 @@ body{
 
     width: calc(100% / 3);
     float: left;
-    margin-top: 100px;
     text-align: left;
+    padding: 20px;
 }
 
 .profile-img{
     height: 100px;
     float: left;
+    border-radius: 10px;
 }
 
 .nome{
@@ -47,8 +52,8 @@ body{
 .card{
     width: 80%;
     background-color: #0f0e17;
-    text-shadow: 2px 2px 4px black;
-  filter:DropShadow(Color=#000000, OffX=2, OffY=2);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.144);
+    border-radius: 10px;
 }
 
 .work{
@@ -58,4 +63,8 @@ body{
 
 .email{
     color: rgb(65,148,173);
+}
+
+.word-space{
+    display: inline-block;
 }
